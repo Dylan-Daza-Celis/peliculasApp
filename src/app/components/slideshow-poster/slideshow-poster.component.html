@@ -1,0 +1,13 @@
+<swiper-container #swiperEl>
+    <swiper-slide *ngFor="let pelicula of peliculas" >
+
+      <ion-row>
+        <ion-col size="12">
+          <ion-card mode="md"  class="card-movie poster" (click)="verDetalle(pelicula.id)">
+            <img   [src]="pelicula.poster_path | imagen" />
+          </ion-card>
+        </ion-col>
+      </ion-row>
+
+    </swiper-slide>
+  </swiper-container>
