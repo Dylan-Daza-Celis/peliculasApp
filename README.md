@@ -31,5 +31,4 @@ Support to your Angular project. It configures everything needed for installable
 
 It was needed to enable the app to behave like a native installable application, work offline, and improve performance through caching.
 
-## Adds Progressive Web App (PWA)
 
